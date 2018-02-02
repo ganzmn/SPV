@@ -136,6 +136,7 @@
     <Content Include="Content\agency.js" />
     <Content Include="Content\agency.min.css" />
     <Content Include="Content\agency.min.js" />
+    <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -156,6 +157,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\2Rose.jpg" />
     <Content Include="img\about\1.jpg" />
     <Content Include="img\about\2.jpg" />
     <Content Include="img\about\3.jpg" />
@@ -183,9 +185,13 @@
     <Content Include="img\portfolio\06-thumbnail.jpg" />
     <Content Include="img\portfolio\JACR.jpg" />
     <Content Include="img\portfolio\LizardoThumbnail.jpg" />
+    <Content Include="img\TacoSunrise-01.png" />
     <Content Include="img\team\1.jpg" />
     <Content Include="img\team\2.jpg" />
     <Content Include="img\team\3.jpg" />
+    <Content Include="img\team\AshleyThumb.jpg" />
+    <Content Include="img\team\Jake.JPG" />
+    <Content Include="img\team\Stella.jpg" />
     <Content Include="Scripts\agency.js" />
     <Content Include="Scripts\agency.min.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />

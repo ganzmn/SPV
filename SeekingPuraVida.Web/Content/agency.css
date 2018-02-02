@@ -13,7 +13,7 @@ p {
 a {
   color: #C97AE5; }
   a:hover {
-    color: #DDAEEE; }
+    color: red; }
 
 .text-primary {
   color: #C97AE5 !important; }
@@ -54,11 +54,11 @@ section {
   padding: 20px 40px; }
 
 .btn-primary {
-  background-color: #c97ae5;
-  border-color: #B416ED; }
-  .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #DDAEEE !important;
-    border-color: #c97ae5 !important;
+  background-color: darkslategrey;
+  border-color: lightgray; }
+  .btn-primary:active,.btn-primary:hover {
+    background-color: red !important;
+    border-color: lightgray !important;
     color: white; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
@@ -92,10 +92,10 @@ body {
     background-color: #C97AE5;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
-    color: #C97AE5;
+    color: indianred;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #DDAEEE; }
+      color: red; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -104,7 +104,7 @@ body {
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #C97AE5; }
+      color: red; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -133,7 +133,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/icoast.jpg");
+  background-image: url("../img/2Rose.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -195,9 +195,9 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: #DDAEEE; }
+      background: rgba(0, 0, 0, 0.71); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-        opacity: 1; }
+        opacity: 4; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         font-size: 20px;
         position: absolute;
@@ -508,4 +508,4 @@ ul.social-buttons {
     outline: none;
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
+      background-color: red; }
